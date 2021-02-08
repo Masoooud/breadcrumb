@@ -1,0 +1,71 @@
+{
+    "home": {
+        "type": "dir",
+        "path": "home",
+        "label": "Home",
+        "children": [{
+            "name": "myname",
+            "type": "dir",
+            "path": "home/myname"
+        }]
+    },
+    "myname": {
+        "type": "dir",
+        "path": "home/myname",
+        "label": "My Name",
+        "children": [{
+                "name": "projects",
+                "type": "dir",
+                "path": "home/myname/projects"
+            },
+            {
+                "name": "filea.txt",
+                "type": "file",
+                "path": "home/myname/filea.txt"
+            },
+            {
+                "name": "fileb.txt",
+                "type": "file",
+                "path": "home/myname/fileb.txt"
+            }
+        ]
+    },
+    "filea.txt": {
+        "type": "dir",
+        "path": "home/myname/filea.txt",
+        "label": "filea.txt",
+        "children": []
+    },
+    "fileb.txt": {
+        "type": "dir",
+        "path": "home/myname/fileb.txt",
+        "label": "fileb.txt",
+        "children": []
+    },
+    "projects": {
+        "type": "dir",
+        "path": "home/myname/projects",
+        "label": "Projects",
+        "children": [{
+            "name": "mysupersecretproject",
+            "type": "dir",
+            "path": "home/myname/projects/mysupersecretproject"
+        }]
+    },
+    "mysupersecretproject": {
+        "type": "dir",
+        "path": "home/myname/projects/mysupersecretproject",
+        "label": "My Super Secret Project",
+        "children": [{
+            "name": "mysupersecretfile",
+            "type": "file",
+            "path": "home/myname/projects/mysupersecretproject/mysupersecretfile"
+        }]
+    },
+    "mysupersecretfile": {
+        "type": "file",
+        "path": "home/myname/projects/mysupersecretproject/mysupersecretfile",
+        "label": "My Super Secret File",
+        "children": []
+    }
+}
